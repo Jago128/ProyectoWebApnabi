@@ -37,6 +37,24 @@ footer {
 
 main {
   display: flex;
-  justify-content: space-around;
-  padding: 0 10px;
+  height: 50vh;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 24px;
+}
+
+.link1 {
+  color: #0099d2;
+}
+
+.link2 {
+  color: #cd007e;
+}
+
+.link3 {
+  color: #a44291;
+}
+
+.link4 {
+  color: #94c123;
 }
