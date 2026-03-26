@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../font/NexaLight.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../font/Futura-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/Nunito-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Nexa", "Futura", "Nunito", sans-serif;
+}
+
 header {
   display: flex;
   margin-bottom: 12px;
@@ -43,6 +68,12 @@ main {
   font-size: 24px;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .link1 {
   color: #0099d2;
 }
@@ -53,8 +84,4 @@ main {
 
 .link3 {
   color: #a44291;
-}
-
-.link4 {
-  color: #94c123;
 }
